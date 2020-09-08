@@ -1,12 +1,18 @@
 package com.viewnext.curso.interfaces;
 
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.viewnext.curso.domain.Clientes;
+
 public interface ServiceCRUDInterface {
 	
-	public String getName();
+	public List<Clientes> getClientes();
 	
-	public String postName();
+	public Clientes postCliente(Clientes cliente);
 	
-	public String deleteName();
+	public String deleteClientePorNombre(String name);
 	
-	public String putName();
+	public Clientes putCliente(Clientes cliente);
 }
