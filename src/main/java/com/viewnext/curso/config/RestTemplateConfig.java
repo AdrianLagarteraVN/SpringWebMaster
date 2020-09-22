@@ -12,6 +12,7 @@ public class RestTemplateConfig {
 	 * parte del microservicio.
 	 */
 
+    
 	@Bean
 	public RestTemplate restTemplate() {
 		return new RestTemplate();
