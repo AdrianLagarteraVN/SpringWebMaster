@@ -12,6 +12,7 @@ public class RestTemplateConfig {
 	 * parte del microservicio.
 	 */
 
+    //No me gusta el git de eclipse
 	@Bean
 	public RestTemplate restTemplate() {
 		return new RestTemplate();
