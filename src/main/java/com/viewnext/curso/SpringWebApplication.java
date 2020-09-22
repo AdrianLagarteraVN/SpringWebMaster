@@ -15,7 +15,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SpringWebApplication {
 
-    //Adios
+    //Nos vemos mañana
 	public static void main(String[] args) {
 		SpringApplication.run(SpringWebApplication.class, args);
 	}
